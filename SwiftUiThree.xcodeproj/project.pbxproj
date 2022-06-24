@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8DE54DB828649EFD006FABF3 /* SwiftUiThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DB728649EFD006FABF3 /* SwiftUiThreeApp.swift */; };
-		8DE54DBA28649EFD006FABF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DB928649EFD006FABF3 /* ContentView.swift */; };
 		8DE54DBC28649EFF006FABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54DBB28649EFF006FABF3 /* Assets.xcassets */; };
 		8DE54DBF28649EFF006FABF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54DBE28649EFF006FABF3 /* Preview Assets.xcassets */; };
 		8DE54DC128649EFF006FABF3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DC028649EFF006FABF3 /* Persistence.swift */; };
@@ -16,6 +15,10 @@
 		8DE54DCE28649EFF006FABF3 /* SwiftUiThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DCD28649EFF006FABF3 /* SwiftUiThreeTests.swift */; };
 		8DE54DD828649EFF006FABF3 /* SwiftUiThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DD728649EFF006FABF3 /* SwiftUiThreeUITests.swift */; };
 		8DE54DDA28649EFF006FABF3 /* SwiftUiThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DD928649EFF006FABF3 /* SwiftUiThreeUITestsLaunchTests.swift */; };
+		8DE54DE828649F15006FABF3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DE728649F15006FABF3 /* HomeScreen.swift */; };
+		8DE54DEA28658DFB006FABF3 /* Task1Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DE928658DFB006FABF3 /* Task1Screen.swift */; };
+		8DE54DED28658F9B006FABF3 /* Task3Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DEC28658F9B006FABF3 /* Task3Screen.swift */; };
+		8DE54DEF28658FB3006FABF3 /* Task4Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54DEE28658FB3006FABF3 /* Task4Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		8DE54DB428649EFD006FABF3 /* SwiftUiThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE54DB728649EFD006FABF3 /* SwiftUiThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiThreeApp.swift; sourceTree = "<group>"; };
-		8DE54DB928649EFD006FABF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DE54DBB28649EFF006FABF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE54DBE28649EFF006FABF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DE54DC028649EFF006FABF3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		8DE54DD328649EFF006FABF3 /* SwiftUiThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE54DD728649EFF006FABF3 /* SwiftUiThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiThreeUITests.swift; sourceTree = "<group>"; };
 		8DE54DD928649EFF006FABF3 /* SwiftUiThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DE54DE728649F15006FABF3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8DE54DE928658DFB006FABF3 /* Task1Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Screen.swift; sourceTree = "<group>"; };
+		8DE54DEC28658F9B006FABF3 /* Task3Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Screen.swift; sourceTree = "<group>"; };
+		8DE54DEE28658FB3006FABF3 /* Task4Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,8 @@
 		8DE54DB628649EFD006FABF3 /* SwiftUiThree */ = {
 			isa = PBXGroup;
 			children = (
+				8DE54DE628649F04006FABF3 /* Screens */,
 				8DE54DB728649EFD006FABF3 /* SwiftUiThreeApp.swift */,
-				8DE54DB928649EFD006FABF3 /* ContentView.swift */,
 				8DE54DBB28649EFF006FABF3 /* Assets.xcassets */,
 				8DE54DC028649EFF006FABF3 /* Persistence.swift */,
 				8DE54DC228649EFF006FABF3 /* SwiftUiThree.xcdatamodeld */,
@@ -131,6 +137,17 @@
 				8DE54DD928649EFF006FABF3 /* SwiftUiThreeUITestsLaunchTests.swift */,
 			);
 			path = SwiftUiThreeUITests;
+			sourceTree = "<group>";
+		};
+		8DE54DE628649F04006FABF3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DE54DE728649F15006FABF3 /* HomeScreen.swift */,
+				8DE54DE928658DFB006FABF3 /* Task1Screen.swift */,
+				8DE54DEC28658F9B006FABF3 /* Task3Screen.swift */,
+				8DE54DEE28658FB3006FABF3 /* Task4Screen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE54DC428649EFF006FABF3 /* SwiftUiThree.xcdatamodeld in Sources */,
+				8DE54DE828649F15006FABF3 /* HomeScreen.swift in Sources */,
+				8DE54DEF28658FB3006FABF3 /* Task4Screen.swift in Sources */,
 				8DE54DC128649EFF006FABF3 /* Persistence.swift in Sources */,
-				8DE54DBA28649EFD006FABF3 /* ContentView.swift in Sources */,
 				8DE54DB828649EFD006FABF3 /* SwiftUiThreeApp.swift in Sources */,
+				8DE54DED28658F9B006FABF3 /* Task3Screen.swift in Sources */,
+				8DE54DEA28658DFB006FABF3 /* Task1Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
